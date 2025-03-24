@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var numero1 = parseFloat(prompt("Digite o primeiro número: "));
+        var numero2 = parseFloat(prompt("Digite o segundo número: "));
+        var numero3 = parseFloat(prompt("Digite o terceiro número: "));
+        var numero4 = parseFloat(prompt("Digite o quarto número: "));
+
+        document.write("O primeiro número é: " + numero1 + "<br>");
+        document.write("O último número é: " + numero4 + "<br>");
+
+        if(numero1 > numero2 && numero1 > numero3 && numero1 > numero4){
+            document.write("O maior número é: " + numero1 + "<br>");
+        }
+        if(numero2 > numero1 && numero2 > numero3 && numero2 > numero4){
+            document.write("O maior número é: " + numero2 + "<br>");
+        }
+        if(numero3 > numero1 && numero3 > numero2 && numero3 > numero4){
+            document.write("O maior número é: " + numero3 + "<br>");
+        }
+        if(numero4 > numero1 && numero4 > numero2 && numero4 > numero3){
+            document.write("O maior número é: " + numero4 + "<br>");
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
