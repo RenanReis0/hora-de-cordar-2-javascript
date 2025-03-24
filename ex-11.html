@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var numero1 = parseInt(prompt("Digite o primeiro número: "))
+        var numero2 = parseInt(prompt("Digite o segundo número: "))
+        var resultado = 0
+        var operacao = parseInt(prompt("Escolha a operação: 1.Adição 2.Subtração 3.Divisão 4.Multiplicação"))
+        if(operacao==1){
+            resultado = numero1 + numero2
+            document.write("O resultado da adição é ",resultado,".")
+        } else if(operacao==2){
+            resultado = numero1 - numero2
+            document.write("O resultado da subtração é ",resultado,".")
+        } else if(operacao==3){
+            resultado = numero1 / numero2
+            document.write("O resultado da divisão é ",resultado,".")
+        } else if(operacao==4){
+            resultado = numero1 * numero2
+            document.write("O resultado da multiplicação é ",resultado,".")
+        } else{
+            document.write("Tenta novamente.")
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
